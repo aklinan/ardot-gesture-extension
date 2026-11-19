@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3A3226"/>
+      <stop offset="1" stop-color="#17130E"/>
+    </linearGradient>
+    <clipPath id="body">
+      <rect x="44" y="32" width="40" height="64" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- 深暖色满幅背景（不留透明角） -->
+  <rect width="128" height="128" fill="url(#bg)"/>
+
+  <!-- 右半金色（抽象的「右键」） -->
+  <rect x="64" y="32" width="20" height="64" fill="#F0A93B" clip-path="url(#body)"/>
+
+  <!-- 胶囊轮廓（抽象的「鼠标」） -->
+  <rect x="44" y="32" width="40" height="64" rx="20" fill="none" stroke="#EFE6D6" stroke-width="6"/>
+
+  <!-- 滚轮圆点 -->
+  <circle cx="64" cy="52" r="5.5" fill="#17130E"/>
+</svg>
